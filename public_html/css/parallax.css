@@ -1,0 +1,83 @@
+
+/* 
+    Created on : 7.4.2020, 17:05:23
+    Author     : Maria Järvinen
+*/
+
+/*
+https://www.w3schools.com/howto/howto_css_parallax.asp
+*/
+
+body, html {
+  height: 100%; /* this is a must for parallax. */
+  font-family: Tahoma, sans-serif;
+  font-size: 100%;
+}
+
+.parallax {
+  position: relative;
+  opacity: 0.8;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#oulu1 {
+  background-image: url("../img/oulu1.jpg");
+  height: 100%;
+}
+
+#oulu2 {
+  background-image: url("../img/oulu2.jpg");
+  height: 100%;
+}
+
+#oulu3 {
+  background-image: url("../img/oulu3.jpg");
+  height: 60%;
+}
+
+.otsikko {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  text-align: center;  
+}
+
+.otsikko span.laatikko {
+  background-color: #98CA32;
+  padding: 18px;
+  font-size: 1.5em;
+  letter-spacing: 10px;
+  line-height: 2em;
+  border-radius: 5px;
+  border-color: #000 !important;
+}
+
+.text {
+    padding: 30px 100px 30px 100px;
+    position: relative;
+}
+
+.text h3 {
+    text-align: center;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. 
+Increase/decrease the pixels if needed */
+@media screen and (max-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+    
+    .text {
+        padding: 30px 10px 30px 10px;
+        position: relative;
+    }     
+}
+
+

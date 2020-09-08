@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tourists::Bootstrap kurssityö - MJ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/jarvinen.css" rel="stylesheet">
+        <meta name="author" content="Maria Järvinen">
+    </head>
+    
+    <body>
+        <main class='container-fluid'>
+            <header class='row'>
+                <div class="col-12">
+                    <h1>Bootstrap kurssityö</h1>
+                </div>
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="indexMJ.html">My city</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="TouristsMJ.html">Tourists</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"  href="ImagesMJ.html">Images</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="ParallaxMJ.html">Parallax</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="BMI_MJ.html">BMI</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>   
+            </header>
+
+            <section class='row'>
+                <div class="col-12 mt-3 ml-2 border-bottom">
+                <h2>Tourists</h2>
+                </div>
+                <div class="col-sm-6 col-md-3 ml-2 mt-5 border-right">
+                    <h3>Shops</h3>
+                    <p>Oulun Ritaharjusta löytyy paljon kauppoja, kauppakeskus Ideaparkista. Ruokakauppoja
+                        Sale ja K-Supermarket Ritaharju. Lähistöllä sijaitsee myös Linnanmaan Prisma, 
+                        jossa myös apteekkipalvelut.</p>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mt-5 ml-2 border-right">
+                    <h3>Palvelut <span class="badge badge-secondary">Uutta!</span></h3>
+                    <p>Raitotien pohjoispuolella Ritaharjun keskuksessa sijaitsee 
+                        vuonna 2010 avattu Ritaharjun monitoimitalo, jossa on muun 
+                        muassa ala- ja yläkoulu, kirjasto sekä nuorisotoimen tilat. 
+                        Ritaharjun Kodin Keskus on Kuivasrannan puolella oleva liiketila, 
+                        jossa toimii Ideapark, Maskun Kalustetalo ja EasyFit liikuntakeskus. 
+                        Alueella on lisäksi Sale, K-Supermarket, päiväkoteja ja ratsastustalli.</p>
+                    <address>Lähde: <a href="https://fi.wikipedia.org/wiki/Ritaharju" 
+                                       target="_blank">Wikipedia</a></address>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mt-5 ml-2 border-right">
+                    <h3>Alueen kehitys</h3>
+                    <p>Uutena asuinalueena Ritaharjun väkiluvun kehitys on ollut 
+                        voimakasta. Vuoden 2005 alussa Ritaharjussa asui 41 asukasta, 
+                        kun vuotta myöhemmin asukkaita oli jo 555. Vuoden 2008 
+                        alussa asukasmäärä oli noussut jo 2 056:een, ollen vuoden 2009 
+                        alussa 2 330. Tammikuussa 2012 Ritaharjussa asui 3 997 asukasta.</p>
+                    <address>Lähde: <a href="https://fi.wikipedia.org/wiki/Ritaharju" 
+                                       target="_blank">Wikipedia</a></address>
+                </div>
+
+                <div class="col-sm-6 col-md-3 mt-5 text-center border-right">
+                    
+                <p>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" 
+                            data-target="#ideapark" 
+                            aria-expanded="false" aria-controls="ideapark">
+                        Ideapark
+                    </button>
+                </p>
+                <div class="collapse" id="ideapark">
+                    <div class="card card-body">
+                        Oulun Kuivasrannan kaupunginosaan valmistui Ideapark-kauppakeskus 
+                        lokakuussa 2014.[12] Jo avajaisvaiheessa Sukari kaavaili hankkeelle 
+                        laajennusta, ja pahoitteli ettei kaavamääräysten vuoksi liikekeskuksessa 
+                        ole ruokakauppaa.[13] Oulun Ideaparkin pinta-ala nykyiselläänmilloin? 
+                        on noin 30 000 neliömetriä. Sukari Invest myi Oulun Ideaparkin 
+                        elokuussa 2016 sijoitusyhtiö Avant Capital Partnersille ja 
+                        Alma Property Partners -rahastolle.
+                        <address>Lähde: <a href="https://fi.wikipedia.org/wiki/Ritaharju" 
+                                       target="_blank">Wikipedia</a></address>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <footer class="row text-center">
+                <div class="col-md-6 text-md-left">
+                    <p>Maria Järvinen<br>2020</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p>Bootstrap and jQuery</p>
+                </div>
+            </footer>
+        </main>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous"></script>
+
+        <script src="js/oma_js.js" type="text/javascript"></script>
+    </body>
+</html>
